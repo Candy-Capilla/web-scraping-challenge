@@ -1,8 +1,6 @@
-#mytable thead th {
+.removetablethead {
     display: none;
 }
-
-/* Get rid of border on cards */
 
 .card {
     border: none;
