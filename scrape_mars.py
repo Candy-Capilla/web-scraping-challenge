@@ -76,7 +76,7 @@ def scrape():
 
 #read mars table and convert to html
     mars_df = pd.read_html("https://space-facts.com/mars/")
-    mars_html_table = mars_df[0].to_html()
+    mars_html_table = mars_df[0].to_html(header=False, index=False)
 
 #quit browser
     browser.quit()
